@@ -12,10 +12,13 @@ class cssInterface{
 		$convert = $_SESSION["load"]["interface"]["cssframework"];
 		switch ($convert) {
 			case 'materializecss':
-			$interfaceFiles = ['materialize.min.css', 'materialize.min.js'];
-			return $interfaceFiles;
+				$interfaceFiles = ['materialize.min.css', 'materialize.min.js'];
+				$_SESSION["interface"] = $interfaceFiles;
 				break;
-			
+			case 'bootstrap':
+				$interfaceFiles = ['materialize.min.css', 'materialize.min.js'];
+				return $interfaceFiles;
+				break;
 			default:
 				# code...
 				break;

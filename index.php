@@ -32,8 +32,8 @@ spl_autoload_register(function ($class_name) {
 });
 // Arquivo com as funções principais e básicas do sistema
 require(ENGINE."native/cssInterface.class.php");
-$interface = new cssInterface;
-$interface->start();
+		$interface = new cssInterface;
+		$interface = $interface->start();
 require(PATHMOTOR."kk-motor-01.php");
 //	se existir o conteudo digitado, aceite, se não, o conteudo se torna "index/index"
 if (isset($_GET["urldigitada"]) ? $_GET["urldigitada"] . "/" : $_GET["urldigitada"] = "index/index");
