@@ -7,7 +7,7 @@
 ; Ultima Alteração : 15/03/2018
 ###################################################################################################
 [interface]
-cssframework=materializecss
+cssframework=bootstrap
 include=local
 
 [banco_de_dados]
