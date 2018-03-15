@@ -4,10 +4,11 @@
 ; Arquivo de configuração ini
 ; Data Criação: 15/11/2017
 ; Autor: Daniel J. Santos
-; Ultima Alteração : 15/11/2017
+; Ultima Alteração : 15/03/2018
 ###################################################################################################
 [interface]
-framework = bootstrap
+cssframework=materializecss
+include=local
 
 [banco_de_dados]
 driver=mysql
